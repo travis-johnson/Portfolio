@@ -13,7 +13,7 @@ nav {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #9bc5c3, #616161);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 385px;
+  height: 335px;
   margin-bottom: 2em;
 }
 
@@ -95,6 +95,13 @@ img {
 .logos img {
   width: 65px;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 500px) {
+  .header .col-6 h1,
+  .header .col-6 h2 {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
