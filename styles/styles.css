@@ -54,6 +54,10 @@ img {
   color: #fff;
 }
 
+.mobile_nav a {
+  padding: 0 20px;
+}
+
 .mobile_nav a:nth-of-type(even) {
   float: right;
 }
