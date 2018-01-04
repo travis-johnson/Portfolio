@@ -18,7 +18,7 @@ nav {
 
 section {
     margin-top: 15%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 img {
@@ -50,6 +50,9 @@ img {
             color: #fff;
         }
     }
+    .hidden-lg {
+        color: #fff;
+    }
 }
 
 .mobile_nav {
@@ -57,6 +60,15 @@ img {
         &:nth-of-type(even) {
             float: right;
         }
+        h3 {
+            margin: 0 2em;
+        }
+    }
+}
+
+.about {
+    p {
+        font-size: 1.125rem;
     }
 }
 
@@ -96,5 +108,13 @@ img {
 @media screen and (min-width:600px) {
     nav {
         height: 15%;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .about {
+        p {
+            font-size: 1.7rem;
+        }
     }
 }

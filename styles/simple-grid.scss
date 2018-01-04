@@ -235,10 +235,13 @@ $breakpoint-large: 60em; // 960px
     .col-12 {
         width: $width;
     }
-    .hidden-sm {
-        display: block;
-    }
+}
+
+@media only screen and (min-width: $breakpoint-small) {
     .hidden-lg {
         display: none;
+    }
+    .hidden-sm {
+        display: block;
     }
 }
