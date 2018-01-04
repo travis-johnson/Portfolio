@@ -61,9 +61,6 @@ img {
         &:nth-of-type(even) {
             float: right;
         }
-        h3 {
-            margin: 0 2em;
-        }
     }
 }
 
@@ -112,6 +109,11 @@ img {
 @media screen and (min-width:600px) {
     nav {
         height: 15%;
+    }
+    .mobile_nav {
+        h3 {
+            margin: 0 2em;
+        }
     }
 }
 
