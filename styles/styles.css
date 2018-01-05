@@ -215,4 +215,7 @@ img {
   .about p {
     font-size: 1.7rem;
   }
+  .screens img {
+    margin: 6em 0;
+  }
 }
