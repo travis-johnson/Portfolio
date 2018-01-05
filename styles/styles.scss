@@ -123,11 +123,12 @@ img {
 
 .contact_logos {
     a {
-        margin: 0 1.5em;
+        margin: 1.5em;
         img {
-            max-width: 80px;
+            max-width: 65px;
             height: auto;
             display: inline-block;
+            padding: 10px;
         }
     }
 }
