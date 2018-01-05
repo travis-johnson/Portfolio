@@ -184,15 +184,25 @@ img {
   border-radius: 6px;
 }
 
-.contact_logos a {
-  margin: 1em;
-}
-
 .contact_logos a img {
-  max-width: 65px;
+  max-width: 35px;
   height: auto;
   display: inline-block;
   padding: 10px;
+}
+
+.btn {
+  background: #54B2ED;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.app_btn {
+  background: #4baa4b;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -218,4 +228,11 @@ img {
   .screens img {
     margin: 6em 0;
   }
+  .contact_logos a {
+    margin: .5em;
+  }
+  .contact_logos a img {
+    max-width: 55px;
+  }
 }
+/*# sourceMappingURL=styles.css.map */
