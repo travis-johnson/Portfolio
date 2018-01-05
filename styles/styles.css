@@ -7,11 +7,11 @@ a {
 }
 
 nav {
-  background: #616161;
+  background: #16222A;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
+  background: -webkit-linear-gradient(to top, #3A6073, #16222A);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9bc5c3, #616161);
+  background: linear-gradient(to top, #3A6073, #16222A);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 335px;
   margin-bottom: 2em;
@@ -33,7 +33,7 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 100px;
-  box-shadow: 0px 4px 20px #969696;
+  box-shadow: 0px 4px 20px #3a3838;
 }
 
 .header h1 {
@@ -77,11 +77,11 @@ img {
 
 #projects h2 {
   font-size: 2.5rem;
-  background: #616161;
+  background: #16222A;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
+  background: -webkit-linear-gradient(to top, #3A6073, #16222A);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9bc5c3, #616161);
+  background: linear-gradient(to top, #3A6073, #16222A);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 20px;
   color: #fff;
@@ -99,7 +99,7 @@ img {
 
 .project_sect {
   margin-bottom: 0;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .logos img {
@@ -109,11 +109,11 @@ img {
 
 #contact h2 {
   font-size: 2.5rem;
-  background: #616161;
+  background: #16222A;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
+  background: -webkit-linear-gradient(to top, #3A6073, #16222A);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9bc5c3, #616161);
+  background: linear-gradient(to top, #3A6073, #16222A);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 20px;
   color: #fff;
@@ -203,6 +203,12 @@ img {
   color: #fff;
   border-radius: 4px;
   padding: 5px 10px;
+}
+
+.app_btn i {
+  color: #fff;
+  font-weight: 800;
+  padding: 0 5px;
 }
 
 @media screen and (max-width: 500px) {
