@@ -127,11 +127,59 @@ img {
         padding: 20px;
         color: #fff;
     }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        textarea {
+            max-width: 600px;
+        }
+        input,
+        textarea {
+            font-size: 1em;
+            padding: 15px 10px 10px;
+            font-family: 'Source Sans Pro', arial, sans-serif;
+            border: 1px solid #cecece;
+            background: #d7d7d733;
+            background-clip: border-box;
+            color: #333;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 80%;
+            max-width: 600px;
+            margin: 10px 0;
+        }
+        button {
+            margin-top: 15px;
+            margin-bottom: 25px;
+            background-color: #54B2ED;
+            padding: 12px 45px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border-radius: 5px;
+            border: 1px solid #54B2ED;
+            -webkit-transition: .5s;
+            transition: .5s;
+            display: inline-block;
+            cursor: pointer;
+            width: 30%;
+            color: #fff;
+        }
+    }
 }
 
 .contact_logos {
     a {
-        margin: 1.5em;
+        margin: 1em;
         img {
             max-width: 65px;
             height: auto;
