@@ -54,6 +54,12 @@ img {
   color: #fff;
 }
 
+.mobile_nav .hidden-lg {
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 13px 0px #d4d4d4;
+}
+
 .mobile_nav a {
   padding: 0 20px;
 }
@@ -64,6 +70,10 @@ img {
 
 .about p {
   font-size: 1.125rem;
+}
+
+#projects p {
+  font-size: 1rem;
 }
 
 #projects h2 {
@@ -85,6 +95,7 @@ img {
 .screens img {
   max-width: 800px;
   height: auto;
+  margin: 2em 0;
 }
 
 .project_sect {
