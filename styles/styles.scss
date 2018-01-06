@@ -44,12 +44,14 @@ img {
         h2 {
             font-weight: 300;
             margin: 0;
+            color: #fff;
         }
     }
     a {
         h2 {
             color: #fff;
             border-bottom: 1px solid;
+            margin: 0;
         }
     }
     .hidden-lg {
@@ -225,6 +227,17 @@ img {
             h1,
             h2 {
                 font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:500px) {
+    .header {
+        .col-6 {
+            h1,
+            h2 {
+                color: #333;
             }
         }
     }
